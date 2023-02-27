@@ -16,5 +16,5 @@ class Character extends Component {
     );
   }
 }
-
+/*TEST*/
 export default Character;
