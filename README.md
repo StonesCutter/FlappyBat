@@ -9,15 +9,15 @@
 ---------------------- COMPONENTS --------------------------
 
 - Form [? - per il login]
-- Button (bottone e input text)
+- Button (bottone e input text) - fatto
 - Obstacle
-- Character (magari class component) - servirà l'outlet?
-- Coin
-- Ground [?]
+- Character - Fatto
+- Coin - Fatto
+- Ground - fatto
 - ScoreList (la classifica vera e propria, con le cards)
 - ScoreNumber (il numero che mostra il punteggio, da usare sia nel Ranking screen che durante il gioco)
-- gamePhrase (per titolo, game start, game over e ranking title)
-- scoreCard ( per game over score e dentro il ranking per la classifica)
+- gamePhrase (per titolo, game start, game over e ranking title) - fatto
+- scoreCard ( per game over score e dentro il ranking per la classifica) - fatto
 
 ---------------------- STATI -----------------------------
 
@@ -74,5 +74,9 @@ CHARACTER COMPONENT functions:
 ---
 
 Piano d'azione:
-1 -
-2 - Movimento bat
+
+
+Palette Colori:
+Secondario: #c498cc
+Primario: #c0c0c0
+Sfondo: #040404

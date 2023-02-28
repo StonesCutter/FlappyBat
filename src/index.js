@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './styles/common.css';
-import Routing from './routing/Routing';
 import { BrowserRouter } from 'react-router-dom';
+import Routing from './routing/Routing';
+import './styles/common.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-  <BrowserRouter>
-    <Routing />
-  </BrowserRouter>
+    <BrowserRouter>
+        <Routing />
+    </BrowserRouter>
 );

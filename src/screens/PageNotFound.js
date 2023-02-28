@@ -1,17 +1,12 @@
-import React, { Fragment } from 'react';
+import React from "react";
 
-
-function PageNotFound(props) {
-
+function PageNotFound() {
   
+
   return (
-    <div className="App">
-      <h1>
-
-        PAGINA NON TROVATA
-      </h1>
-
-    </div>
+      <div>
+        <h1>Non Esisto</h1>
+      </div>
   );
 }
 
