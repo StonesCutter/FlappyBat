@@ -5,6 +5,7 @@
 3. RANKING - functional component
 4. GAME - class component
 5. GAME OVER - functional component
+6. SKIN ???
 
 ---------------------- COMPONENTS --------------------------
 

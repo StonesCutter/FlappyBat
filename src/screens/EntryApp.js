@@ -1,10 +1,10 @@
 import React from "react";
-import Character from "../components/ui/character/Character";
+import Character from "../components/funcComponents/character/Character";
 import GamePhrase from "../components/ui/gamePhrase/GamePhrase";
 import ScoreCard from "../components/ui/scoreCard/ScoreCard";
 import Input from "../components/ui/input/Input";
 import ParallaxBG from "../components/ui/parallaxBG/ParallaxBG";
-import Coin from "../components/ui/coin/Coin";
+import Coin from "../components/funcComponents/coin/Coin";
 
 function EntryApp(props) {
   

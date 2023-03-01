@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/ranking/ranking.css";
 
 function Ranking() {
   
