@@ -4,7 +4,6 @@ import { useNavigate, Link } from "react-router-dom";
 // COMPONENTS
 import RowList from "../components/funcComponents/RowList";
 import customEventsBus from "../events/customEventsBus";
-import Character from "../components/funcComponents/character/Character";
 
 function EntryApp(props) {
   const navigate = useNavigate();
@@ -55,11 +54,17 @@ function EntryApp(props) {
     navigate("/newsDetail/10/pippo");
   }
 
+  function goToGame() {
+    navigate("/game");
+  }
+
   return (
     <div id="test" className="App">
-      <div>
-        <Character />
-      </div>
+      <p>
+        <button onClick={goToGame}>Go To login</button>
+      </p>
+
+      {/*
       <p>
         <button onClick={goToLogin}>Go To login</button>
       </p>
@@ -96,6 +101,7 @@ function EntryApp(props) {
       </p>
 
       <RowList title={"RowList"}>{obj.map(mapList)}</RowList>
+      */}
     </div>
   );
 }

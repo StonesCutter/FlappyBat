@@ -9,7 +9,7 @@ import NewsDetail from "../screens/NewsDetail";
 import Cms from "../screens/Cms";
 import Cart from "../screens/cms/Cart";
 import Order from "../screens/cms/Order";
-
+import Game from "../screens/Game";
 import PageNotFound from "../screens/PageNotFound";
 
 function Routing(props) {
@@ -19,6 +19,7 @@ function Routing(props) {
       <Route path="/login" element={<Login />} />
       <Route path="/registration" element={<Registration />} />
       <Route path="/newsDetail/:id/:test" element={<NewsDetail />} />
+      <Route path="/game" element={<Game />} />
 
       <Route path="cms" element={<Cms />}>
         <Route path="order" element={<Order />} />
